@@ -1,1 +1,152 @@
 /* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files */
+@import 'https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css';
+@import 'https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css';
+
+body{
+  background-image: url(assets/room1.jpg);    
+  background-size: cover;  
+  background-position: center;
+  background-repeat: no-repeat;    
+  
+}
+.navbar-collapse{
+  flex-grow: unset !important;  
+
+  
+  }
+
+  .container{
+
+    float: left;
+    margin-left: 5%;
+    margin-top: 60px;
+    color: black;   
+  }
+  .foto1{       
+    width: 18%;
+    height: 5%;     
+    margin: 4px;    
+    float: left;     
+    margin-left: 0%;     
+  }
+
+.navbar.active{
+  position: fixed;
+  margin-right: 5%; 
+  
+  
+}
+
+a {
+  cursor: pointer;
+}
+
+.navbar {
+  margin-bottom: 30px;
+} 
+ .img_ap{
+  width: 40%;
+  
+} 
+
+.card {
+  
+  border: none;
+  -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .05);
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .05);
+  margin-bottom: 30px;
+}
+
+.w-60 {
+  width: 600px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  float: right;
+  margin: 0 0 10px;
+  font-weight: 600px;
+}
+
+a {
+  color: #707070;
+}
+i {
+color: white;
+}
+
+a {
+color: rgb(156, 151, 151);
+}
+ /* redes sociales */
+ .redes{
+  position: fixed; 
+  top: 200px; 
+  z-index: 100;
+  margin-left: 93%; 
+  margin-right: 4%;             
+  
+}
+#facebook a{
+  background-color: transparent;
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+}
+#twitter a{
+ background-color: transparent; 
+ padding: 10px 17px;
+ color: #fff;
+ text-decoration: none;
+}
+ #instagram a{
+   background-color: transparent; 
+   padding: 10px 17.5px;
+   color: #fff;
+   text-decoration: none;
+ }
+ #linkedin a{
+   background-color: transparent;
+   padding: 10px 17.5px;
+   color: #fff;
+   text-decoration: none;
+ }
+ #whatsapp a{
+   background-color: transparent;
+   padding: 10px 17.5px;
+   color: #fff;
+   text-decoration: none;
+ }
+ /* redes sociales */
+ .container-fluid{
+margin-top: 0px;
+position: relative;
+ }
+
+ .nombre_{
+   color: #fff;
+   float: right;
+   margin-top: -45%;
+   margin-left: 1%;
+   margin-right: -05%;   
+ }
+ .trabajo{
+  color: #fff;
+  float: right;
+  margin-top: -40%;
+  margin-left: 1%;
+  margin-right: -05%;  
+ }
+ .localidad{
+  color: #fff;
+  float: right;
+  margin-top: -35%;
+  margin-left: 1%;
+  margin-right: -05%;  
+
+ }

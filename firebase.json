@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "dist/employeemanagerapp",
+    "public": "dist\\employeemanagerapp",
     "ignore": [
       "firebase.json",
       "**/.*",

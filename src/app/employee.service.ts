@@ -6,7 +6,7 @@ import { environment } from 'src/environments/environment';
 
 @Injectable({providedIn: 'root'})
 export class EmployeeService {
-  apiBaseUrl!: 'https://ferherreraheroku.herokuapp.com';
+  
   
   private apiServerUrl = environment.apiBaseUrl;
 

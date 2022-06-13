@@ -1,0 +1,8 @@
+{
+    "/apiServerUrl/*":{
+        "target": "https://proyectferapp.web.app",
+        "secure": false,
+        "logLevel": "debug"
+       
+    }
+}

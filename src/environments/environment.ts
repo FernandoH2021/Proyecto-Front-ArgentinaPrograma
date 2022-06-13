@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  apiBaseUrl: 'http://ferherr.herokuapp.com'
+  apiBaseUrl: 'https://ferherr.herokuapp.com'
 };
 
 /*
